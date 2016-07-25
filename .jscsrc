@@ -1,0 +1,6 @@
+// http://jscs.info/overview
+
+{
+  "preset": "airbnb",
+  "disallowTrailingComma": true // http://jscs.info/rule/disallowTrailingComma
+}

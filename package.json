@@ -1,0 +1,23 @@
+{
+  "name": "circle-number",
+  "version": "1.0.0",
+  "bugs": {
+    "url": "https://github.com/yassh/circle-number/issues"
+  },
+  "devDependencies": {
+    "fixpack": "^2.3.1",
+    "jscs": "^3.0.7",
+    "tape": "^4.6.0"
+  },
+  "homepage": "https://github.com/yassh/circle-number#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yassh/circle-number.git"
+  },
+  "scripts": {
+    "fixpack": "fixpack",
+    "test": "node test && jscs ."
+  }
+}

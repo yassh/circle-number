@@ -1,3 +1,5 @@
+'use strict';
+
 function circleNumber(n) {
   n = parseInt(n, 10);
 

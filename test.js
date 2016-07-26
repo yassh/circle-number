@@ -1,3 +1,5 @@
+'use strict';
+
 const circleNumber = require('./');
 const test = require('tape');
 

@@ -1,6 +1,9 @@
 {
   "name": "circle-number",
   "version": "1.0.0",
+  "bin": {
+    "circle-number": "./bin/index.js"
+  },
   "bugs": {
     "url": "https://github.com/yassh/circle-number/issues"
   },

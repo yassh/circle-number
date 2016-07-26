@@ -4,6 +4,9 @@
   "bugs": {
     "url": "https://github.com/yassh/circle-number/issues"
   },
+  "dependencies": {
+    "yargs": "^4.8.1"
+  },
   "devDependencies": {
     "fixpack": "^2.3.1",
     "jscs": "^3.0.7",

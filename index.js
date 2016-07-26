@@ -17,7 +17,7 @@ function circleNumber(n) {
     return String.fromCharCode(12977 + n - 36);
   }
 
-  throw new Error(`${n} is Unsupported number.`);
+  throw new Error(`${n} is unsupported number.`);
 }
 
 module.exports = circleNumber;

@@ -5,8 +5,9 @@
 const circleNumber = require('../');
 const argv = require('yargs')
   .help('help').alias('help', 'h')
-  .usage('Usage: $0 <number ...>')
-  .example('$0 3 12 35', 'print circled 3, circled 12, and circled 35')
+  .usage('Usage: circle-number <number ...>')
+  .example('circle-number 3', 'print circled 3')
+  .example('circle-number 3 12 35', 'print circled 3, circled 12, and circled 35')
   .argv;
 
 argv._.forEach((n) => {

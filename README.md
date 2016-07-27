@@ -1,5 +1,7 @@
 # circle-number
 
+Convert number to circled number.
+
 Supports 0 to 50.
 
 
